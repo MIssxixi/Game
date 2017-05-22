@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F649BB21ED2E47B00462A82 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F649BB11ED2E47B00462A82 /* GameOverScene.swift */; };
 		1FD1CEE51ECADD9000342062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CEE41ECADD9000342062 /* AppDelegate.swift */; };
-		1FD1CEE71ECADD9000342062 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1CEE61ECADD9000342062 /* GameScene.sks */; };
-		1FD1CEE91ECADD9000342062 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1CEE81ECADD9000342062 /* Actions.sks */; };
 		1FD1CEEB1ECADD9000342062 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CEEA1ECADD9000342062 /* GameScene.swift */; };
 		1FD1CEED1ECADD9000342062 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CEEC1ECADD9000342062 /* GameViewController.swift */; };
 		1FD1CEF01ECADD9000342062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1CEEE1ECADD9000342062 /* Main.storyboard */; };
@@ -17,6 +16,8 @@
 		1FD1CEF51ECADD9000342062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1CEF31ECADD9000342062 /* LaunchScreen.storyboard */; };
 		1FD1CF001ECADD9100342062 /* SpriteKitSimpleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CEFF1ECADD9100342062 /* SpriteKitSimpleGameTests.swift */; };
 		1FD1CF0B1ECADD9100342062 /* SpriteKitSimpleGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1CF0A1ECADD9100342062 /* SpriteKitSimpleGameUITests.swift */; };
+		1FD1CF1B1ECAE4F400342062 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1CF191ECAE4F400342062 /* background-music-aac.caf */; };
+		1FD1CF1C1ECAE4F400342062 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1CF1A1ECAE4F400342062 /* pew-pew-lei.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F649BB11ED2E47B00462A82 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		1FD1CEE11ECADD9000342062 /* SpriteKitSimpleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitSimpleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD1CEE41ECADD9000342062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1FD1CEE61ECADD9000342062 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		1FD1CEE81ECADD9000342062 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		1FD1CEEA1ECADD9000342062 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1FD1CEEC1ECADD9000342062 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1FD1CEEF1ECADD9000342062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		1FD1CF061ECADD9100342062 /* SpriteKitSimpleGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitSimpleGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD1CF0A1ECADD9100342062 /* SpriteKitSimpleGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitSimpleGameUITests.swift; sourceTree = "<group>"; };
 		1FD1CF0C1ECADD9100342062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD1CF191ECAE4F400342062 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		1FD1CF1A1ECAE4F400342062 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +105,10 @@
 		1FD1CEE31ECADD9000342062 /* SpriteKitSimpleGame */ = {
 			isa = PBXGroup;
 			children = (
+				1FD1CF181ECAE4F400342062 /* Sounds */,
 				1FD1CEE41ECADD9000342062 /* AppDelegate.swift */,
-				1FD1CEE61ECADD9000342062 /* GameScene.sks */,
-				1FD1CEE81ECADD9000342062 /* Actions.sks */,
 				1FD1CEEA1ECADD9000342062 /* GameScene.swift */,
+				1F649BB11ED2E47B00462A82 /* GameOverScene.swift */,
 				1FD1CEEC1ECADD9000342062 /* GameViewController.swift */,
 				1FD1CEEE1ECADD9000342062 /* Main.storyboard */,
 				1FD1CEF11ECADD9000342062 /* Assets.xcassets */,
@@ -132,6 +134,15 @@
 				1FD1CF0C1ECADD9100342062 /* Info.plist */,
 			);
 			path = SpriteKitSimpleGameUITests;
+			sourceTree = "<group>";
+		};
+		1FD1CF181ECAE4F400342062 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1FD1CF191ECAE4F400342062 /* background-music-aac.caf */,
+				1FD1CF1A1ECAE4F400342062 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 				TargetAttributes = {
 					1FD1CEE01ECADD9000342062 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = ZEDNAR7A4E;
 						ProvisioningStyle = Automatic;
 					};
 					1FD1CEFA1ECADD9100342062 = {
@@ -241,11 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD1CF1B1ECAE4F400342062 /* background-music-aac.caf in Resources */,
 				1FD1CEF01ECADD9000342062 /* Main.storyboard in Resources */,
-				1FD1CEE71ECADD9000342062 /* GameScene.sks in Resources */,
 				1FD1CEF21ECADD9000342062 /* Assets.xcassets in Resources */,
+				1FD1CF1C1ECAE4F400342062 /* pew-pew-lei.caf in Resources */,
 				1FD1CEF51ECADD9000342062 /* LaunchScreen.storyboard in Resources */,
-				1FD1CEE91ECADD9000342062 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +284,7 @@
 			files = (
 				1FD1CEEB1ECADD9000342062 /* GameScene.swift in Sources */,
 				1FD1CEED1ECADD9000342062 /* GameViewController.swift in Sources */,
+				1F649BB21ED2E47B00462A82 /* GameOverScene.swift in Sources */,
 				1FD1CEE51ECADD9000342062 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZEDNAR7A4E;
 				INFOPLIST_FILE = SpriteKitSimpleGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yongjiezou.SpriteKitSimpleGame;
@@ -438,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZEDNAR7A4E;
 				INFOPLIST_FILE = SpriteKitSimpleGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yongjiezou.SpriteKitSimpleGame;
@@ -519,6 +534,7 @@
 				1FD1CF111ECADD9100342062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FD1CF121ECADD9100342062 /* Build configuration list for PBXNativeTarget "SpriteKitSimpleGameTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +543,7 @@
 				1FD1CF141ECADD9100342062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FD1CF151ECADD9100342062 /* Build configuration list for PBXNativeTarget "SpriteKitSimpleGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +552,7 @@
 				1FD1CF171ECADD9100342062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
